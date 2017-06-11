@@ -1,0 +1,304 @@
+article{
+	padding: 14px;
+	margin: 9px;
+}
+article,nav,footer{
+	background-color: #737373;
+}
+p,h1,h2,h3,h4,h5,h6,li{
+	color: white;
+}
+/*Nav*/
+nav ul li{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-top: 0;
+	padding-right: 9px;
+}
+nav{
+	padding-top: 0;
+	margin: 0 9px;
+}
+nav:after, nav ul:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+nav ul{
+	padding: 4px;
+	margin: 5px;
+}
+/*Cover*/
+section.cover div#left{
+	float: left;
+	width: 69.929%;
+	margin: 8px 4px 8px 8px;
+	height: 326.7px;
+}
+section.cover div#left article{
+	height: 299px;
+}
+section.cover article{
+	margin: 0;
+	background-color: #4d4d4d;
+
+}
+section.cover div#right{
+	float: right;
+	width: 28%;
+	margin: 8px 8px 8px 4px;
+}
+section.cover:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+section.cover{
+	display: block;
+}
+/*latest news*/
+section.latest-news article a{
+	text-decoration: none;
+}
+section.latest-news article{
+	float: left;
+	width: 269.44px;
+	height: 269.44px;
+	margin: 7px;
+}
+section.latest-news h2{
+	background-color: #737373;
+	margin: 0 8px;
+	padding: 5px;
+}
+section.latest-news:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+/*Latest funding*/
+section.latest-fundings article{
+	float: left;
+	width: 269.44px;
+	height: 269.44px;
+	margin: 7px;	
+	background-color: #4d4d4d;
+
+}
+
+section.latest-fundings:after{
+	content:" ";
+	display: block;
+	clear: both;
+}
+
+section.latest-fundings h2{
+	background-color: #4d4d4d;
+	margin: 0 8px;
+	padding: 5px;
+}
+/*Miscellaneous*/
+section.miscellaneous article{
+	float: left;
+	padding: 2px 13px;
+	width: 371.1px;
+	height: 371.1px;
+	margin-top: 2px;
+}
+section.miscellaneous:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+section.miscellaneous h2{
+	margin: 5px 2px;
+}
+/*Latest deals*/
+section.latest-deals article{
+	margin-top: 5px;
+	float: left;
+	width: 265px;height: 265px;
+	background-color: #4d4d4d;
+	margin-bottom: 4px;
+}
+section.latest-deals h2{
+	background-color: #4d4d4d;
+	margin: 0 11px 3px 9px;
+	padding: 5px;
+}
+section.latest-deals:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+/*footer*/
+footer{
+	height: 500px;
+	margin: 2px 9px;
+}
+footer h2{
+	margin: 0;
+	text-align: center;
+	font-size: 220px;	
+}
+
+@media only screen and (max-width: 1200px){
+	/*Nav*/
+
+	/*Cover*/
+	section.cover div#left{
+		width: 48%;
+		margin-right: 0;
+	}
+
+	section.cover div#right{
+		width: 48%;
+	}
+
+	/*latest news*/
+	section.latest-news article{
+		width: 20.38%;
+		height: 250px;
+		margin: 0.7%;
+	}
+	/*latest fundings*/
+	section.latest-fundings article{
+		width: 20.48%;
+		height: 200px;
+	}
+	/*misc*/
+	section.miscellaneous article{
+		width: 20.48%;
+		margin: 0.7%;
+	}
+	section.miscellaneous article:nth-child(9){
+		width: 94.7%;
+		height: 200px;
+	}
+	/*latest-deals*/
+	section.latest-deals article{
+		width: 20.68%;
+		height: 180px;
+		margin: 0.7%;
+	}
+	/*footer*/
+	footer{
+
+	}
+}
+@media only screen and (max-width: 868px){
+	/*Nav*/
+
+	/*Cover*/
+	section.cover div#left{
+		width: 97.8%;
+		margin-right: 0;
+	}
+
+	section.cover div#right{
+		width: 97.8%;
+	}
+
+	/*latest news*/
+	section.latest-news article{
+		width: 28.4%;
+		height: 250px;
+		margin: 0.5%;
+	}
+	section.latest-news article:nth-child(8),section.latest-news article:nth-child(9){
+		width: 45%;
+		margin:3px;
+	}
+	/*latest fundings*/
+	section.latest-fundings article{
+		width: 45%;
+		margin:3px;
+		height: 200px;
+	}
+	section.latest-fundings h2{
+		margin-right: 5px;
+		margin-left: 3px;
+	}
+	/*misc*/
+	section.miscellaneous article{
+		width: 45%;
+		margin: 2.2px;
+	}
+	section.miscellaneous article:nth-child(9){
+		width: 94.7%;
+		height: 200px;
+	}
+	/*latest-deals*/
+	section.latest-deals article{
+		width: 45%;
+		height: 180px;
+		margin: 2px;
+	}
+	section.latest-deals h2{
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	/*footer*/
+	footer{
+
+	}
+}
+@media only screen and (max-width: 712px){
+	/*Nav*/
+
+	/*Cover*/
+	section.cover div#left{
+		width: 97.8%;
+		margin-right: 0;
+	}
+
+	section.cover div#right{
+		width: 97.8%;
+	}
+
+	/*latest news*/
+	section.latest-news article{
+		width: 93.7%;
+		height: 200px;
+		margin: 2px;
+		margin-top: 6px;
+	}	
+	
+	/*latest fundings*/
+	section.latest-fundings article{
+		width: 93.7%;
+		margin:3px;
+		height: 200px;
+	}
+	section.latest-fundings h2{
+		margin-right: -3px;
+		margin-left: 3px;
+	}
+	/*misc*/
+	section.miscellaneous article{
+		width: 94.7%;
+		margin: 2.2px;
+	}
+	
+	/*latest-deals*/
+	section.latest-deals article{
+		width: 94.7%;
+		height: 180px;
+		margin: 2px;
+	}
+	section.latest-deals h2{
+		margin-top: 3px;
+		margin-left: 4px;
+		margin-right: -4px;
+	}
+	/*footer*/
+	footer{
+		height: 270px;
+		margin-left: 4px;
+		margin-right: -2px;
+	}
+	footer h2{
+		font-size: 100px;
+	}
+}
